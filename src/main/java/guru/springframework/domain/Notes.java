@@ -1,13 +1,11 @@
 package guru.springframework.domain;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.persistence.*;
 
 @Entity
-@Setter
-@Getter
+@Data
 public class Notes {
 
     @Id
